@@ -1,0 +1,29 @@
+# Netlify configuration for the Little Genius legal pages (static site)
+[build]
+  publish = "."
+
+# Security headers for a static informational site
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Friendly URLs (allow /privacy in addition to /privacy.html)
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+[[redirects]]
+  from = "/child-safety"
+  to = "/child-safety.html"
+  status = 200
+[[redirects]]
+  from = "/data-deletion"
+  to = "/data-deletion.html"
+  status = 200

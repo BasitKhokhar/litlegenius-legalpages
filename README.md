@@ -37,7 +37,11 @@ Then in the **Google Play Console**, paste these URLs:
 - Data deletion (App content → Data safety / Account deletion) → `https://YOUR-SITE.netlify.app/data-deletion.html`
 - Child safety standards → `https://YOUR-SITE.netlify.app/child-safety.html`
 
+## Contact (live)
+- Developer: **Basit Dev**
+- Email: **basitkhokhar957@gmail.com**
+- Phone: **03060760549**
+
 ## Customise before publishing
-- Replace `support@littlegenius.app` everywhere with a mailbox you actually monitor.
 - Confirm the effective date (currently **15 June 2026**).
-- Confirm the company/owner name in the footers.
+- Contact details across all pages are set to Basit Dev / basitkhokhar957@gmail.com / 03060760549.
